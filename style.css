@@ -1,0 +1,78 @@
+.container{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "sidebar1 main sidebar2"
+    "sidebar3 content content"
+    
+    ;
+   
+    
+    
+    
+}
+
+
+#sidebar1{
+    grid-area: sidebar1;
+    border: 1.5px solid;
+    
+    
+            
+}
+main{
+    grid-area: main;
+    border: 1.5px solid;
+}
+#sidebar2{
+    grid-area: sidebar2;
+    border: 1.5px solid;
+}
+#sidebar3{
+    grid-area: sidebar3;
+    border: 1.5px solid;
+    height: 10cm;
+
+}
+#content{
+    grid-area: content;
+}
+#sidebar4{
+    height: 2cm;
+    background-color: rgb(204, 204, 17);
+}
+#sidebar5{
+    height: 2cm;
+    background-color: rgba(0, 0, 204, 0.651);
+   
+}
+#sidebar6{
+
+    height: 2cm;
+    background-color: rgb(55, 55, 163);
+    
+}
+#sidebar7{
+   
+    height: 2cm;
+    background-color: greenyellow;
+    
+    
+    ;
+}
+#sidebar8{
+    grid-area: sidebar8;
+    height: 2cm;
+    background-color: purple;
+   
+}
+h4{
+    text-align: center;
+}
+h6{ text-align: center;
+
+}
+
+    
